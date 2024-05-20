@@ -40,7 +40,7 @@ Pour ce projet, nous allons utiliser les technos suivant:
 + Docker version 26.1.1 build 4cf5afa
 + Docker Compose version v2.7.0
 + Registre docker officiel sur le dépot dockerhub: registry version 2
-+ Interface utilisateur du registre docker: joxit/docker-registry-ui
++ Interface utilisateur du registre docker: joxit/docker-registry-ui depuis le registre public dockerhub
 
 ## **3) Conteneurisation de l’application web.** 
 
