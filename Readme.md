@@ -30,8 +30,19 @@ Ci-dessous un aperçu du site vitrine attendu.
 
 **NB :**L'image créée devra permettre de lancer un container permettant d’héberger ce site web et ayant les liens adéquats permettant d’accéder à nos applications internes 
 
+## **2) Technique **
 
-## **2) Conteneurisation de l’application web.** 
+Pour ce projet, nous allons utiliser les technos suivant:
+
++ Physical host: Windows 11
++ Virtualbox 7.0
++ Centos Stream 9
++ Docker version 26.1.1 build 4cf5afa
++ Docker Compose version v2.7.0
++ Registre docker officiel sur le dépot dockerhub: registry version 2
++ Interface utilisateur du registre docker: joxit/docker-registry-ui
+
+## **3) Conteneurisation de l’application web.** 
 
 Il s’agit en effet d’une application web python utilisant le module Flask. Les étapes à suivre pour la conteneurisation de cette application sont les suivantes : 
 
@@ -52,7 +63,7 @@ Une fois le Dockerfile créé,il faut Builder et lancer un container test permet
 
 Une fois le test terminé, il faut supprimer ce container test et poussez l'image sur le registre Docker hub.
 
-### ** Réalistation**
+### ** Réalistation technique**
 
 Pour commencer, nous allons:
 
