@@ -77,17 +77,25 @@ Pour commencer, nous allons:
 
   3. Le fichier Dockerfile étant terminé, nous allons procéder à la construction de l'image docker:
 
-  4. Vérifions que l'image a bien été créé:
+  ![docker build -t ic-webapp](https://github.com/rabinauget/filrouge/assets/61904489/84d7170e-28ff-4449-9126-f312b859866e)
 
-  5. Nous allons créer un container à partir de l'image nouvellement créé pour confirmer que l'image est bien fonctionnel:
+  5. Vérifions que l'image a bien été créé:
 
-  6. Etant donné que je suis sur une machine virtuelle sous virtualbox, nous allons devoir faire une redirection de port pour que depuis ma machine hôte, je puisse accéder au conteneur docker qui se trouve dans la machine virtuelle:
+![image](https://github.com/rabinauget/filrouge/assets/61904489/57070f77-b63a-4596-82fc-c82d35d584f3)
 
-  7. Maintenant, nous allons pouvoir accéder au container sur le port 83:
+  7. Nous allons créer un container à partir de l'image nouvellement créé pour confirmer que l'image est bien fonctionnel:
 
-  8. Etant donné que nous avons terminé le test et avons constaté que l'image est bien fonctionnel, nous allons pousser l'image vers le registre docker. Mais d'abord, il faut tagger l'image pour pouvoir le pousser. Et également, faire une redirection de port pour accéder à l'UI:
+![image](https://github.com/rabinauget/filrouge/assets/61904489/5d10708d-9f1b-4b6a-989c-527ef4422ff4)
 
-  9. Suppression du container:
+  9. Etant donné que je suis sur une machine virtuelle sous virtualbox, nous allons devoir faire une redirection de port pour que depuis ma machine hôte, je puisse accéder au conteneur docker qui se trouve dans la machine virtuelle:
+
+    a. ![image](https://github.com/rabinauget/filrouge/assets/61904489/0eef6a58-4119-4626-bea8-f2ab1760b596)
+
+  11. Maintenant, nous allons pouvoir accéder au container sur le port 83:
+
+  12. Etant donné que nous avons terminé le test et avons constaté que l'image est bien fonctionnel, nous allons pousser l'image vers le registre docker. Mais d'abord, il faut tagger l'image pour pouvoir le pousser. Et également, faire une redirection de port pour accéder à l'UI:
+
+  13. Suppression du container:
 
 
 
