@@ -42,7 +42,7 @@ Pour ce projet, nous allons utiliser les technos suivant:
 
 ## **3) Conteneurisation de l’application web** 
 
-Il s’agit en effet d’une application web python utilisant le module Flask. Les étapes à suivre pour la conteneurisation de cette application sont les suivantes : 
+Il s’agit d’une application web python utilisant le module Flask. Les étapes à suivre pour la conteneurisation de cette application sont les suivantes : 
 
 1) Image de base : `python:3.6-alpine`
 2) Définir le répertoire `/opt` comme répertoire de travail 
