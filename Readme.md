@@ -40,7 +40,7 @@ Pour ce projet, nous allons utiliser les technos suivant:
 + Docker version 26.1.1 build 4cf5afa
 + Docker Compose version v2.7.0
 
-## **3) Conteneurisation de l’application web.** 
+## **3) Conteneurisation de l’application web** 
 
 Il s’agit en effet d’une application web python utilisant le module Flask. Les étapes à suivre pour la conteneurisation de cette application sont les suivantes : 
 
