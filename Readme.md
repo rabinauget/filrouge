@@ -30,7 +30,7 @@ Ci-dessous un aperçu du site vitrine attendu.
 
 **NB :**L'image créée devra permettre de lancer un container permettant d’héberger ce site web et ayant les liens adéquats permettant d’accéder à nos applications internes 
 
-## **2) Technos utilisées**
+## **2) Technologies utilisées**
 
 Pour ce projet, nous allons utiliser les technos suivant:
 
