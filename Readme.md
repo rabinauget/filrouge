@@ -30,7 +30,7 @@ Ci-dessous un aperçu du site vitrine attendu.
 
 **NB :**L'image créée devra permettre de lancer un container permettant d’héberger ce site web et ayant les liens adéquats permettant d’accéder à nos applications internes 
 
-## **2) Technos utilisées **
+## **2) Technos utilisées**
 
 Pour ce projet, nous allons utiliser les technos suivant:
 
@@ -63,7 +63,7 @@ Une fois le Dockerfile créé,il faut Builder et lancer un container test permet
 
 Une fois le test terminé, il faut supprimer ce container test et poussez l'image sur le registre Docker hub.
 
-### ** Réalistation technique**
+### **Réalistation technique**
 
 Pour commencer, nous allons:
 
@@ -87,15 +87,36 @@ Pour commencer, nous allons:
 
 ![image](https://github.com/rabinauget/filrouge/assets/61904489/5d10708d-9f1b-4b6a-989c-527ef4422ff4)
 
-  9. Etant donné que je suis sur une machine virtuelle sous virtualbox, nous allons devoir faire une redirection de port pour que depuis ma machine hôte, je puisse accéder au conteneur docker qui se trouve dans la machine virtuelle:
+ 8. Après la création du container, il faut vérifier qu'il a bien été créé et est bien démarré:
 
-    a. ![image](https://github.com/rabinauget/filrouge/assets/61904489/0eef6a58-4119-4626-bea8-f2ab1760b596)
+  ![image](https://github.com/rabinauget/filrouge/assets/61904489/6b9f493b-8c7b-423a-924c-994923ba3e73)
 
-  11. Maintenant, nous allons pouvoir accéder au container sur le port 83:
+ 9. On peut voir que le conteneur a bién été démarré il y a 4 secondes et est en écoute sur le port 8090. Etant donné que je suis sur une machine virtuelle sous virtualbox, nous allons devoir faire une redirection de port pour que depuis ma machine hôte, je puisse accéder au conteneur docker qui se trouve dans la machine virtuelle:
 
-  12. Etant donné que nous avons terminé le test et avons constaté que l'image est bien fonctionnel, nous allons pousser l'image vers le registre docker. Mais d'abord, il faut tagger l'image pour pouvoir le pousser. Et également, faire une redirection de port pour accéder à l'UI:
+  ![Capture d'écran 2024-05-23 202950](https://github.com/rabinauget/filrouge/assets/61904489/63d27688-b642-4b6a-84b7-51a087b56086)
 
-  13. Suppression du container:
+  10. Maintenant, nous allons pouvoir accéder au container sur le port 8090 depuis notre hôte physique:
+
+  ![image](https://github.com/rabinauget/filrouge/assets/61904489/f9b04fd9-6f9a-40fc-b30f-613253fac09d)
+
+  11. Etant donné que nous avons terminé le test et avons constaté que l'image est bien fonctionnel, nous allons supprimer le conteneur avant de pousser l'image vers le registre dockerhub:
+
+![image](https://github.com/rabinauget/filrouge/assets/61904489/5e31268e-3784-4c01-bdb7-4ba69d001b8e)
+
+  12. On peut maintenant pousser l'image vers le registre Dockerhub en commencant par tagger l'image:
+
+![image](https://github.com/rabinauget/filrouge/assets/61904489/77edb4ab-253d-4993-98b3-2c8a59b85fa2)
+
+  12. Une fois le tagger terminé, on pousse l'image:
+
+  ![image](https://github.com/rabinauget/filrouge/assets/61904489/b0e776e0-2e0b-4c41-af7b-8da7e8989175)
+
+  13. Nous allons regarder sur Dockerhub pour confirmer que l'image a bien été poussé:
+
+  ![image](https://github.com/rabinauget/filrouge/assets/61904489/b7a41395-2518-421b-a740-0d7620a2ce06)
+
+  L'image est bien présent sur mon repo personnel sur Dockerhub.
+
 
 
 
