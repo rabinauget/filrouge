@@ -79,7 +79,7 @@ Pour commencer, nous allons:
 
   ![docker build -t ic-webapp](https://github.com/rabinauget/filrouge/assets/61904489/84d7170e-28ff-4449-9126-f312b859866e)
 
-  5. Vérifions que l'image a bien été créé (J'ai dû prendre une pause a près la création de l'image suite à un souci de connexion):
+  5. Vérifions que l'image a bien été créé (J'ai dû prendre une pause a près la création de l'image suite à un souci de connexion, c'est pourquoi il affiche que l'image a été généré il y a 5h):
 
 ![image](https://github.com/rabinauget/filrouge/assets/61904489/57070f77-b63a-4596-82fc-c82d35d584f3)
 
